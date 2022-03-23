@@ -15,7 +15,7 @@ class ItemPage extends StatelessWidget {
         title: const Text('Belanja App'),
       ),
       body: Center(
-        child: Text(itemArgs.name + ' with' + itemArgs.price.toString()),
+        child: Text(itemArgs.name + 'with' + itemArgs.price.toString()),
       ),
     );
   }

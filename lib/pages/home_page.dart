@@ -6,6 +6,9 @@ class HomePage extends StatelessWidget {
   final List<Item> items = [
     Item(name: 'Sugar', price: 5000),
     Item(name: 'Salt', price: 2000),
+    Item(name: 'pepper', price: 7000),
+    Item(name: 'Onion', price: 10000),
+    Item(name: 'Potato', price: 13000),
   ];
 
   HomePage({Key? key}) : super(key: key);
